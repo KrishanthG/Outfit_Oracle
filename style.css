@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    color: #333;
+  }
+  
+  /* Form Styles */
+  .form-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input, select {
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Wardrobe Styles */
+  .wardrobe {
+    margin-bottom: 20px;
+  }
+  
+  .wardrobe-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .wardrobe-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .wardrobe-item img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  .wardrobe-item h3 {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  
+  .wardrobe-item p {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .wardrobe-item button {
+    padding: 8px 12px;
+    background-color: #ff5a5a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+  .wardrobe-item button:hover {
+    background-color: #ff3c3c;
+  }
+  
+  /* Outfit Planner Styles */
+  .outfit-planner {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .outfit-planner h2 {
+    color: #333;
+    margin-bottom: 16px;
+  }
+  
+  .outfits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .outfit {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .outfit img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  .outfit h3 {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  
+  .outfit p {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #666;
+  }
+  

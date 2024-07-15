@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outfit Oracle</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Outfit Oracle</h1>
+  </header>
+
+  <section class="container">
+    <div class="form-container">
+      <h2>Add Items to Your Wardrobe</h2>
+      <form id="clothing-form">
+        <label for="item-name">Item Name:</label>
+        <input type="text" id="item-name" required>
+        
+        <label for="category">Category:</label>
+        <select id="category" required>
+          <option value="">Select Category</option>
+          <option value="top">Top</option>
+          <option value="bottom">Bottom</option>
+          <option value="accessory">Accessory</option>
+          <option value="footwear">Footwear</option>
+        </select>
+        
+        <label for="image-url">Image URL:</label>
+        <input type="url" id="image-url" required>
+        
+        <button type="submit">Add Item</button>
+      </form>
+    </div>
+
+    <div class="wardrobe">
+      <h2>Your Wardrobe</h2>
+      <div id="wardrobe-items" class="wardrobe-items"></div>
+    </div>
+
+    <div class="outfit-planner">
+      <h2>Outfit Planner</h2>
+      <div id="outfits" class="outfits"></div>
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
