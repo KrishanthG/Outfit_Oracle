@@ -46,8 +46,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions or feedback, feel free to contact me at krishanthg@example.com.
+Follow me on https://www.linkedin.com/in/krishanth-g/
 
 ---
-
-**Note**: Replace the placeholder email address with your actual email address. Additionally, if you have any screenshots, place them in a `screenshots` directory and update the image paths accordingly in the README.
