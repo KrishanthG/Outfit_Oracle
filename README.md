@@ -40,8 +40,6 @@ Contributions are welcome! Here's how you can help:
     ```
 5. Open a pull request.
 
-## License
-
 ## Contact
 
 Follow me on https://www.linkedin.com/in/krishanth-g/
